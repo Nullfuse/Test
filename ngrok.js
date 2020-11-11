@@ -5,7 +5,7 @@ var completionSpec = {
     subcommands: [
         {
             name: "http",
-            description: "Record changes to the repository",
+            description: "expose a local web server to the internet",
             insertValue: "-http '{cursor}'",
             options: [
                 {
